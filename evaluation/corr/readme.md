@@ -1,6 +1,5 @@
 # How to calculate out of sample performance of a PhysNet model
 
-**You need to download the [directory](https://github.com/MMunibas/PhysNet/tree/master) named "neural_network" and then put the "neural_network" here.**
 
 1) Choose your best model and copy it to the ../models_clPhOH folder.
 2) copy your input file (containing the hyperparameters of PhysNet) to the current path and add your dataset to the dataset folder.
