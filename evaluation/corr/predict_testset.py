@@ -67,7 +67,7 @@ else:
     args = parser.parse_args()
 
 #file paths to checkpoint files
-checkpoints = "../models_clPhOH/clphoh.meta.mp2.631g.3000_a",
+checkpoints = "../models_clPhOH/base_model/3245_CPhOH_mp2_631g-1",
 
 
 #load dataset

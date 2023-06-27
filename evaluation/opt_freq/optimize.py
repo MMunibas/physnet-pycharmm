@@ -41,9 +41,9 @@ atoms = read(args.input)
 #it is important that it is setup with the settings as used in the
 #training procedure.
 calc = NNCalculator(
-    checkpoint="../models_clPhOH/tf-model-1/699_CPhOH_mp2_avtz-1", #load the model you want to used
-#    checkpoint="../models_clPhOH/best-models-3245/3245_CPhOH_mp2_631g-1",
-#    checkpoint="../models_clPhOH/best-models-6748/6748_CPhOH_mp2_631g-1"
+    checkpoint="../models_clPhOH/TL_model/699_CPhOH_mp2_avtz-1", #load the model you want to used
+#    checkpoint="../models_clPhOH/base_model/3245_CPhOH_mp2_631g-1",
+#    checkpoint="../models_clPhOH/refined_model/6748_CPhOH_mp2_631g-1"
     atoms=atoms,
     charge=args.charge,
     F=128,

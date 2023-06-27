@@ -67,7 +67,7 @@ atoms.set_positions(atoms.get_positions()-np.mean(atoms.get_positions(), axis=0)
 #it is important that it is setup with the settings as used in the
 #training procedure.
 calc = NNCalculator(
-    checkpoint="../models_clPhOH/clphoh.meta.mp2.631g.3000_a", #load the model you want to use
+    checkpoint="../models_clPhOH/TL_model/699_CPhOH_mp2_avtz-1", #load the model you want to use
     atoms=atoms,
     charge=args.charge,
     F=128,
